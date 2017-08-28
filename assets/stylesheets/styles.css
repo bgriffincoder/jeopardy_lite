@@ -1,0 +1,14 @@
+.form-group {
+  width: 200px;
+}
+
+#container{
+  width: 500px;
+}
+
+.scoreWrapper {
+  margin-top: 100px;
+  font-family: Helvetica;
+  font-size:50px;
+  font-weight: 100;
+}

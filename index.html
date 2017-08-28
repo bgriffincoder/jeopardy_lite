@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css"/>
+
+  </head>
+  <body>
+    <div class="row">
+         <div class="col-sm-2 col-sm-offset-5 text-center">
+           <div id="container">
+             <div class="text-left">
+               <b>Question:</b> <span id="question"></span>
+             </div>
+             <div class="text-left">
+               <b>Category:</b> <span id="category"></span>
+             </div>
+             <div class="text-left">
+               <b>Value:</b> <span id="questionvalue"></span>
+             </div>
+             <div class="form-group text-left">
+               <label for="answer">Answer:</label> <span id="answerapivalue"></span>
+               <input type="text" class="form-control" id="answer">
+             </div>
+             <div class="buttonWrapper text-left">
+               <button type="button" class="btn btn-primary btn-lg guessbtn">Guess</button>
+               <button type="button" class="btn btn-secondary btn-lg submitbtn">Submit Answer</button>
+             </div>
+
+           </div>
+         </div>
+     </div>
+     <div class="scoreWrapper text-center">
+       <b>Score:</b> <span id="score">0</span>
+     </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://localhost:50351/livereload.js"></script>
+    <script type="text/javascript" src="assets/javascripts/myjs.js"></script>
+  </body>
+</html>
